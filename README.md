@@ -19,6 +19,6 @@ sp_helpindex [data_voucher]
 
 ## index 사용 예시
 ```sql
-SELECT * FROM [TABLE NAME]  WITH (INDEX([indexName]))
+SELECT * FROM TABLE_NAME WITH (INDEX( IndexName))
 where col_1 ='11'
 ```
