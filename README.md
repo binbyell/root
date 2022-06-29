@@ -4,10 +4,11 @@
 ## index 생성
 
 ```sql
-CREATE INDEX sampleIndex
+CREATE INDEX IndexName
 
    ON [TABLE NAME] ([column name for key] [order type])
 ```
+order type<br>
 asc 오름차순<br>
 desc 내림차순<br>
 
