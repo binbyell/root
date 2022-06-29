@@ -3,8 +3,10 @@
 # mssql
 ## index 생성
 
-```mssql
+```sql
 CREATE INDEX sampleIndex
 
-   ON [ICT_DB].[dbo].[data_voucher] (col_1 ASC)
+   ON [TABLE NAME] ([column name for key] [order type])
 ```
+asc 오름차순
+desc 내림차순
